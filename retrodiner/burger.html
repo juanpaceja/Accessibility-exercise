@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Website template by freewebsitetemplates.com -->
+<head>
+  <title>Burger Menu - Retro Diner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div id="header" role="banner">
+    <div>
+      <!-- Enlaces adyacentes al mismo destino fusionados en uno -->
+      <a href="index.html">
+        <img class="logo" src="images/logo.png" width="513" height="84" alt="Retro Diner - Inicio">
+        <img src="images/waitress.png" width="332" height="205" alt="">
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="burger.html" aria-current="page">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div id="body" role="main">
+    <div class="content">
+      <div>
+        <div>
+          <h1>Burgers</h1>
+          <!-- alt descriptivo en imagen del producto -->
+          <div>
+            <a href="burger.html">
+              <img src="images/burger.jpg" width="434" height="288" alt="Hamburguesa clásica de Retro Diner">
+            </a>
+          </div>
+          <ul>
+            <li>
+              <h2><a href="burger.html">Burger Special</a></h2>
+              <p>Our house classic! A juicy grilled beef patty topped with fresh lettuce, tomato, onions, pickles, and our signature Retro sauce, all served on a toasted bun. Simple, timeless, and always satisfying.</p>
+              <span class="price">$1</span>
+            </li>
+            <li>
+              <h2><a href="burger.html">Veggie Burger</a></h2>
+              <p>A delicious plant-based option packed with flavor. Made with a hearty veggie patty, crisp lettuce, tomato, avocado, and a light herb mayo on a toasted bun. A fresh and tasty choice for everyone.</p>
+              <span class="price">99&cent;</span>
+            </li>
+            <li>
+              <h2><a href="burger.html">Super Duper Burger</a></h2>
+              <p>Big, bold, and unforgettable! Double beef patties stacked with melted cheese, crispy bacon, caramelized onions, and our special house sauce. This is the ultimate burger for serious appetites.</p>
+              <span class="price">$2</span>
+            </li>
+            <!-- Tab invisible eliminado de class="last	" -->
+            <li class="last">
+              <h2><a href="burger.html">Kiddies Burger</a></h2>
+              <p>A small burger with juicy beef patty, tomato, lettuce, bacon and cheese. Served with small fries and drink of your choice.</p>
+              <span class="price">80&cent;</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <!-- h1 duplicado: cambiado a h2 -->
+      <h2>Menu</h2>
+      <nav aria-label="Navegación del menú">
+        <ul class="navigation">
+          <li class="first"><a class="active" href="burger.html" aria-current="page">Burgers</a></li>
+          <li><a href="hotdog.html">Hotdogs</a></li>
+          <li><a href="shake.html">Shakes</a></li>
+          <li><a href="breakfast.html">Breakfast</a></li>
+        </ul>
+      </nav>
+      <!-- Enlace vacío con aria-label -->
+      <a href="burger.html" class="download" aria-label="Descargar menú de hamburguesas">&nbsp;</a>
+    </div>
+  </div>
+
+  <div id="footer" role="contentinfo">
+    <div>
+      <ul>
+        <li class="first">
+          <h2>Delivery Hotline</h2>
+          <h3>Call 0-123-456-789</h3>
+          <ul>
+            <li>
+              <a href="http://www.freewebsitetemplates.com/go/facebook"
+                 class="facebook"
+                 aria-label="Síguenos en Facebook"></a>
+            </li>
+            <li>
+              <a href="http://www.freewebsitetemplates.com/go/twitter"
+                 class="twitter"
+                 aria-label="Síguenos en Twitter"></a>
+            </li>
+            <li>
+              <a href="http://www.freewebsitetemplates.com/go/googleplus"
+                 class="googleplus"
+                 aria-label="Síguenos en Google+"></a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="index.html">
+            <img class="logo" src="images/logo-footer.png" alt="Retro Diner">
+          </a>
+          <nav aria-label="Navegación del pie de página">
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="burger.html">Menu</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+          <span>&copy; 2026 RetroDiner.com. All Rights Reserved</span>
+        </li>
+
+        <li class="last">
+          <h2>Follow Us By Email</h2>
+          <form action="index.html">
+            <label for="subscribe-email" class="sr-only">Tu correo electrónico</label>
+            <input
+              type="email"
+              id="subscribe-email"
+              name="subscribe"
+              placeholder="Enter Your Email Here...">
+            <input type="submit" value="OK">
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+
+</body>
+</html>

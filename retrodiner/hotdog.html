@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Website template by freewebsitetemplates.com -->
+<head>
+  <title>Hotdog Menu - Retro Diner</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div id="header" role="banner">
+    <div>
+      <a href="index.html">
+        <img class="logo" src="images/logo.png" width="513" height="84" alt="Retro Diner">
+      </a>
+      <a href="">
+        <img src="images/waitress.png" width="332" height="205" alt="Mesera clásica de Retro Diner">
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="burger.html" aria-current="page">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div id="body" role="main">
+    <div class="content">
+      <div>
+        <div>
+          <h1>Hotdogs</h1>
+          <!-- alt descriptivo en imagen del producto -->
+          <div>
+            <a href="hotdog.html">
+              <img src="images/hotdog.jpg" width="434" height="327" alt="Hot dog clásico de Retro Diner">
+            </a>
+          </div>
+          <ul>
+            <li>
+              <h2><a href="hotdog.html">Hotdog Special</a></h2>
+              <p>Classic grilled hotdog loaded with mustard, ketchup, and relish. A timeless diner favorite.</p>
+              <span class="price">99&cent;</span>
+            </li>
+            <li>
+              <h2><a href="hotdog.html">Bacon Cheesedog</a></h2>
+              <p>Juicy hotdog topped with crispy bacon and melted cheese for a rich, savory bite.</p>
+              <span class="price">99&cent;</span>
+            </li>
+            <li>
+              <h2><a href="hotdog.html">King Size Hotdog</a></h2>
+              <p>An extra-long hotdog piled high with your choice of classic toppings. Big flavor for a big appetite.</p>
+              <span class="price">$1</span>
+            </li>
+            <!-- Corregido: class="last	" tenía un tab invisible dentro del valor -->
+            <li class="last">
+              <h2><a href="hotdog.html">Kiddies Hotdog</a></h2>
+              <p>A smaller, simple hotdog made just right for little diners. Served plain or with ketchup.</p>
+              <span class="price">75&cent;</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <!-- h1 duplicado: la página ya tiene un h1 "Hotdogs", este se cambia a h2 -->
+      <h2>Menu</h2>
+      <nav aria-label="Navegación del menú">
+        <ul class="navigation">
+          <li class="first"><a href="burger.html">Burgers</a></li>
+          <!-- aria-current en el enlace activo del sidebar -->
+          <li><a class="active" href="hotdog.html" aria-current="page">Hotdogs</a></li>
+          <li><a href="shake.html">Shakes</a></li>
+          <li><a href="breakfast.html">Breakfast</a></li>
+        </ul>
+      </nav>
+      <!-- Enlace sin texto accesible: añadido aria-label -->
+      <a href="hotdog.html" class="download" aria-label="Descargar menú de hotdogs">&nbsp;</a>
+    </div>
+  </div>
+
+  <div id="footer" role="contentinfo">
+    <div>
+      <ul>
+        <li class="first">
+          <h2>Delivery Hotline</h2>
+          <h3>Call 0-123-456-789</h3>
+          <ul>
+            <li>
+              <a href="http://www.freewebsitetemplates.com/go/facebook"
+                 class="facebook"
+                 aria-label="Síguenos en Facebook"></a>
+            </li>
+            <li>
+              <a href="http://www.freewebsitetemplates.com/go/twitter"
+                 class="twitter"
+                 aria-label="Síguenos en Twitter"></a>
+            </li>
+            <li>
+              <a href="http://www.freewebsitetemplates.com/go/googleplus"
+                 class="googleplus"
+                 aria-label="Síguenos en Google+"></a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="index.html">
+            <img class="logo" src="images/logo-footer.png" alt="Retro Diner">
+          </a>
+          <nav aria-label="Navegación del pie de página">
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="burger.html">Menu</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+          <span>&copy; 2026 RetroDiner.com. All Rights Reserved</span>
+        </li>
+
+        <li class="last">
+          <h2>Follow Us By Email</h2>
+          <form action="index.html">
+            <label for="subscribe-email" class="sr-only">Tu correo electrónico</label>
+            <input
+              type="email"
+              id="subscribe-email"
+              name="subscribe"
+              placeholder="Enter Your Email Here...">
+            <input type="submit" value="OK">
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+
+</body>
+</html>
